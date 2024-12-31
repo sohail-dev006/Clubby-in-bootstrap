@@ -1,0 +1,1354 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="Clubby.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+        integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <!-- ===========font family link======== -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap" rel="stylesheet">
+        <!-- =================end========= -->
+        <link rel="stylesheet" href="example.scss">
+</head>
+
+<body class="background-body">
+                      
+
+
+                               <!-- ================Soahil============= -->
+
+
+
+
+
+                               <div class="modal fade" id="exampleModalnavbar" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                <div class="modal-dialog modal-dialog-centered ">
+                                  <div class="modal-content py-2 px-0">
+                                    <div class="text-center py-2">
+                                      <h1 class="modal-title text-3F4354 fs-24 fw-600" id="exampleModalLabel">Log out</h1>
+                                    </div>
+                                    <div class="text-center py-2">
+                                      <div class="text-3F4354 ps-1 fs-18 fw-600">
+                                        Are you sure you want to log out ?
+                                      </div>
+                                    </div>
+                                    <div class="d-flex py-4 justify-content-center">
+                                      <div class=" rounded-3 bg-gradient">
+                                        <button type="button" class="btn px-5 text-white fw-600" data-bs-dismiss="modal">Confirm</button>
+                                      </div>
+                                      <button type="button" class="btn text-97989D">Cancel</button>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+
+
+
+
+
+
+                            
+                            <!-- =========================== Sohail   ======================-->
+
+
+
+
+
+     <!-- ============notification========== -->
+     
+
+
+
+  <div class="modal fade" id="exampleModaln" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+      <div class="modal-content p-2 pb-3">
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        <div class="modal-header">
+          <div>
+            <h3 class="modal-title text-3F4354 fs-24 fw-600" id="exampleModalLabel">Notifications</h3>
+          </div>
+          <div class="d-flex align-items-center ms-auto">
+            <img class="px-23 px-2" src="image/shai.png" alt="">
+            <span>Mark All as Read</span>
+          </div>
+        </div>
+        <div class="modal-body pb-0">
+          <div class="d-flex py-3 ps-2 my-2">
+            <div>
+              <img src="image/not-1.png" alt="">
+            </div>
+            <div class="pt-1">
+              <h5 class="fs-18 text-97989D fw-700">Catalin Pit commented on your post</h5>
+              <small class="fs-6 fw-400 text-97989D">“Great ebook & giveaway!”</small>
+              <h5 class="fs-18 text-97989D fw-700">Catalin Pit commented on your post</h5>
+              <small class="fs-6 fw-400 text-97989D">22Feb, 3:26pm</small>
+            </div>
+          </div>
+          <div class="d-flex py-3 ps-2 my-2">
+            <div>
+              <img src="image/not-2.png" alt="">
+            </div>
+            <div class="pt-1">
+              <h5 class="fs-18 text-97989D fw-700">Jubed Ahmed Published an post on Cat Lovers Club</h5>
+              <p class="fs-18 fw-600 text-97989D">The best cat toy in 2022</p>
+              <small class="fs-6 fw-400 text-97989D">17Feb, 10:48pm</small>
+            </div>
+          </div>
+          <div class="d-flex py-3 ps-2 my-2">
+            <div>
+              <img src="image/not-3.png" alt="">
+            </div>
+            <div class="pt-1">
+              <h5 class="fs-18 text-97989D fw-700">Tushar Srivastava Loike your post</h5>
+              <h6 class="fs-18 fw-600 text-97989D">Best Cat ever</h6>
+              <small class="fs-6 fw-400 text-97989D">13Feb, 1:54am</small>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+  <!-- ===============end notification========== -->
+
+
+  <!-- =============Join Club============ -->
+  <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered ">
+      <div class="modal-content p-2 pb-3">
+        <div class="modal-header">
+          <h1 class="modal-title text-3F4354 fs-24 fw-600" id="exampleModalLabel">Join Club</h1>
+        </div>
+        <div class="modal-body pb-0">
+          <div class="text-3F4354 ps-1 fs-18 fw-600">
+            Club Code
+          </div>
+        </div>
+        <hr>
+        <div class="ps-4">
+          <form action="">
+            <label for="">
+              282b223
+            </label>
+          </form>
+        </div>
+        <div class="modal-footer pt-3 justify-content-start">
+          <div class=" rounded-3 bg-gradient">
+            <button type="button" class="btn px-5 text-white fw-600" data-bs-dismiss="modal">Join</button>
+          </div>
+          <button type="button" class="btn text-97989D">Cancel</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+                    <!-- ===============+ Create a Club=================== -->
+
+  <div class="modal fade" id="exampleModal+" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog ms-lg-5 px-lg-5 modal-dialog-centered">
+      <div class="modal-content p-2 pb-3">
+        <div class="modal-header">
+          <h1 class="modal-title text-1B1B1B fs-24 fw-600" id="exampleModalLabel">Club Details</h1>
+        </div>
+        <div class="modal-body pb-0">
+          <div class="text-3F4354 ps-1 fs-18 fw-600">
+            Club Icon
+          </div>
+          <div>
+            <img src="image/club icon.png" alt="">
+          </div>
+          <div class="ps-2 py-2">
+            <h5 class="fs-6 fw-600 text-3F4354">Club Name</h5>
+          </div>
+          <div class="ps-4 py-2">
+            <h5 class="fs-14 fw-400 text-1B1B1B">Cat lover club</h5>
+          </div>
+          <div class="ps-2 pt-3">
+            <h5 class="fs-18 fw-600 text-3F4354">Club Description</h5>
+          </div>
+          <div class="ps-4 pb-2">
+            <p class="fs-14 fw-400 text-1B1B1B">
+              a house for cat lover all over the world. Download thousands of free & premium web design, illustration, bootstrap template, flutter app, icon, 3d illustration, and graphic assets for your UI, UX design project
+            </p>
+          </div>
+        </div>
+        <div class="d-flex py-2">
+          <div class="px-3">
+            <h5 class="fs-18 ps-1 fw-600 text-3F4354">Show budget to all members</h5>
+          </div>
+          <div class="ms-auto">
+             <img src="image/Frame 1000003543.png" alt="">
+          </div>
+        </div>
+        <div class="d-flex py-2">
+          <div class="px-3">
+            <h5 class="fs-18 ps-1 fw-600 text-3F4354">Allow all Members to post 
+              announcements</h5>
+          </div>
+          <div>
+             <img src="image/Frame 1000003543.png" alt="">
+          </div>
+        </div>
+        <div class="py-2 ps-3">
+          <h6 class="fs-18 ps-1 fw-600 text-3F4354">Club Color</h6>
+          <span class="px-1">
+            <img class="hover-color" src="image/S1.png" alt="">
+          </span>
+          <span class="px-1">
+            <img class="hover-color" src="image/S7.png" alt="">
+          </span>
+          <span class="px-1">
+            <img class="hover-color" src="image/S3.png" alt="">
+          </span>
+          <span class="px-1">
+            <img class="hover-color" src="image/S4.png" alt="">
+          </span>
+          <span class="px-1">
+            <img class="hover-color" src="image/S5.png" alt="">
+          </span>
+          <span class="px-1">
+            <img class="hover-color" src="image/S6.png" alt="">
+          </span>
+          <span class="px-1">
+            <img class="hover-color" src="image/S7.png" alt="">
+          </span>
+          <span class="px-1">
+            <img class="hover-color" src="image/S8.png" alt="">
+          </span>
+          <span class="px-1">
+            <img class="hover-color" src="image/S9.png" alt="">
+          </span>
+        </div>
+        <div class="modal-footer pt-3 justify-content-start">
+          <div class=" rounded-3 bg-gradient">
+            <button type="button" class="btn px-4 text-white fw-600" data-bs-dismiss="modal">Create a club</button>
+          </div>
+          <button type="button" class="btn text-97989D">Cancel</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ========= Share==========-->
+
+
+  <div class="modal fade" id="exampleModal2" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+      <div class="modal-content p-2">
+        <div class="modal-header">
+          <h1 class="modal-title text-3F4354 fs-24 fw-600" id="exampleModalLabel">Share</h1>
+        </div>
+        <div class="modal-body pb-3 pb-0 d-flex">
+          <div class="text-3F4354">
+            clubby.com/club/cat-club123
+          </div>
+          <div class="ms-auto">
+            <span>
+              <img src="image/fluent_copy-16-regular.png" alt="">
+              <span>Copy link</span>
+            </span>
+          </div>
+        </div>
+        <div class="ps-4 pt-2 d-flex">
+          <form action="">
+            <label for="">
+              282b223
+            </label>
+          </form>
+          <div class="ms-auto">
+            <span class="me-3">
+              <img src="image/fluent_copy-16-regular.png" alt="">
+              <span>Copy link</span>
+            </span>
+          </div>
+        </div>
+        <div class="text-center pt-4">
+          <p>Or share with</p>
+        </div>
+        <div class="d-flex justify-content-center align-items-center">
+          <div class="text-center mx-3 py-2">
+            <img src="image/sms.png" alt="">
+            <h4 class="fs-14 text-1C1D21 fw-600 py-3">SMS</h4>
+          </div>
+          <div class="text-center mx-3 py-2">
+            <img src="image/massage.png" alt="">
+            <h4 class="fs-14 text-1C1D21 fw-600 py-3">Email</h4>
+          </div>
+          <div class="text-center mx-3 py-2">
+            <img src="image/scan.png" alt="">
+            <h4 class="fs-14 text-1C1D21 fw-600 py-3">QR Code</h4>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <!-- ======end share -->
+
+
+  <!-- ================Leave start================ -->
+
+  <div class="modal fade" id="exampleModalleave" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+      <div class="modal-content pb-3">
+        <div class="py-3">
+          <div class="d-flex text-center ms-4">
+            <div class="ms-5">
+              <h1 class="modal-title ms-5 text-center text-3F4354 fs-24 fw-600" id="exampleModalLabel">Leave the club
+              </h1>
+            </div>
+          </div>
+        </div>
+        <div class="pb-3">
+          <div class="text-3F4354 text-center ps-1 fs-18 fw-600">
+            Are you sure you want to leave Cat Lover Club?
+          </div>
+        </div>
+        <div class="d-flex pt-3 pb-3 justify-content-center">
+          <div class=" rounded-3 bg-gradient">
+            <button type="button" class="btn px-5 text-white fw-600" data-bs-dismiss="modal">Confirm</button>
+          </div>
+          <button type="button" class="btn text-97989D">Cancel</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+                              <!-- =====Header Start======== -->
+
+
+                              
+                            <header class=" sticky-top">
+                                <div class="container-fluid bg-FFFFFF">
+                                  <div class="row px-sm-3 px-xxl-2 ms-xxl-0 me-lg-2 py-1 align-items-center">
+                                    <nav class="navbar navbar-expand">
+                                      <div class="container-fluid">
+                                        <span class="navbar-brand text-info pointer ps-md-3 ps-xxl-0 " href="#"><img
+                                            src="image/Clubby gradient filled 1.png" alt=""></span>
+                            
+                                        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                                          <ul class="navbar-nav ms-5 mb-2 mb-lg-0">
+                                            <li class="nav-item align-items-center d-none px-2 d-lg-block">
+                                              <a class="nav-link active" aria-current="page" href="#">
+                                                <img src="image/Home.png" alt="">
+                                              </a>
+                                            </li>
+                                            <li class="nav-item align-items-center pt-2 hover px-2 pointer d-none d-lg-block">
+                                              <a class="nav-link disabled" aria-disabled="true">
+                                                <img src="image/top-2.png" alt="">
+                                              </a>
+                                            </li>
+                                            <li class="nav-item align-items-center px-2 hover pointer pt-2 d-none d-lg-block">
+                                              <a class="nav-link disabled" aria-disabled="true">
+                                                <img src="image/home 2.png" alt="">
+                                              </a>
+                                            </li>
+                                            <li class="nav-item align-items-center hover pt-2 px-2 pointer d-none d-lg-block">
+                                              <a class="nav-link disabled" aria-disabled="true">
+                                                <img src="image/top-1.png" alt="">
+                                              </a>
+                                            </li>
+                                          </ul>
+                                          <span class="d-flex align-items-center pointer ms-auto ps-0" role="search">
+                                            <li class="list-unstyled px-2 px-xl-3 py-2 me-2 px-lg-0 hover align-items-center" data-bs-toggle="modal" data-bs-target="#exampleModaln">
+                                              <img class="py-2" src="image/navbar.png" alt="">
+                                            </li>
+                                            <span class="d-flex" >  
+                                              <div class="d-flex dropup-center dropdown hover p-2 align-items-center">
+                                                <li class="list-unstyled  pe-lg-2">
+                                                  <img class="bg-picture" src="image/glasses.png" alt="">
+                                                </li>
+                                                <btn class="dropdown-toggle d-none d-lg-block" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                                  Sohail ZanGii
+                                                </btn>
+                                                <ul class="dropdown-menu">
+                                                  <li class="d-flex  align-items-center py-1">
+                                                    <span>
+                                                      <img class="px-2" src="image/Settings.png" alt="">
+                                                    </span>
+                                                  <a class="dropdown-item fw-600 fs-6 p-0" href="#">Settings</a>
+                                                  </li>
+                                                  <li class="d-flex align-content-center py-1"  data-bs-toggle="modal" data-bs-target="#exampleModalnavbar">
+                                                    <span>
+                                                      <img class="px-2 pe-1 ms-1" src="image/ion_log-out.png" alt="">
+                                                    </span>
+                                                    <a class="dropdown-item text-E94343 fw-600 fs-6 p-0" href="#">Logout</a>
+                                                  </li>
+                                                </ul>
+                                              </div>
+                                            </span>
+                                          </span>
+                                        </div>
+                                      </div>
+                                    </nav>
+                                  </div>
+                                </div>
+                              </header>
+                              
+
+                                   <!-- =======End of Header -->
+
+
+  <!-- =====join Club Start==== -->
+
+
+
+
+  <section>
+    <div class="container-fluid">
+      <div class="row px-sm-3 px-xxl-4 pt-lg-3">
+        <div class="col-lg-3">
+          <div class="py-3 d-lg-block d-block d-sm-none">
+            <div class=" d-flex pointer my-2 rounded-3 py-1 bg-gradient justify-content-center align-items-center" data-bs-toggle="modal"
+            data-bs-target="#exampleModal">
+              <btn class="text-decoration-none py-2 fs-6  px-2 text-white fw-600" >
+                <img src="image/Notification.png" alt="">
+                join Club
+              </btn>
+            </div>
+            <div class="d-flex justify-content-center pointer rounded-3 bg-w-f  my-4 py-2" data-bs-toggle="modal"
+            data-bs-target="#exampleModal+">
+              <btn class="text-decoration-none px-2 py-2 fs-6 text-black fw-600" >
+                + Create a Club
+              </btn>
+            </div>
+
+
+            <div class="accordion" id="accordionExample">
+              <div class="accordion-item">
+                <h2 class="accordion-header">
+                  <button class="accordion-button shadow-none py-3 ps-2 bg-transparent text-3F4354 fw-600" type="button"
+                      data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true"
+                      aria-controls="collapseOne">
+                      Your Clubs
+                    </button>
+                </h2>
+                <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+                  <div class="accordion-body">
+                    <div class="d-flex justify-content-sm-center justify-content-lg-start align-items-center py-1">
+                      <div class="px-1">
+                        <img src="image/Avatars.png" alt="">
+                      </div>
+                      <div class="pt-2 ps-2 ps-lg-0 ps-xl-2">
+                        <div class="fs-12 pointer fw-600">Cat Lover Club</div>
+                        <small class="fs-10 pointer fw-400">Shots featured today by cu..</small>
+                      </div>
+                    </div>
+                    <div class="d-flex justify-content-sm-center justify-content-lg-start align-items-center py-1">
+                      <div class="px-1">
+                        <img src="image/Avatars (7).png" alt="">
+                      </div>
+                      <div class="pt-2 ps-2 ps-lg-0 ps-xl-2">
+                        <div class="fs-12 pointer fw-600">Business Club</div>
+                        <small class="fs-10 pointer fw-400">Find the latest update</small>
+                      </div>
+                    </div>
+                    <div class="d-flex justify-content-sm-center justify-content-lg-start align-items-center py-1">
+                      <div class="px-1">
+                        <img src="image/Avatars (6).png" alt="">
+                      </div>
+                      <div class="pt-2 ps-2 ps-lg-0 ps-xl-2">
+                        <div class="fs-12 pointer fw-600">Music RnB Club</div>
+                        <small class="fs-10 pointer fw-400">Find the latest update</small>
+                      </div>
+                    </div>
+                    <div class="d-flex justify-content-sm-center justify-content-lg-start align-items-center py-1">
+                      <div class="px-1">
+                        <img src="image/Avatars (5).png" alt="">
+                      </div>
+                      <div class="py-2 pb-0 ps-2 ps-lg-0 ps-xl-2">
+                        <div class="fs-12 pointer fw-600">Riders Club</div>
+                        <small class="fs-10 pointer fw-400">Riders Club</small>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>              
+            </div>
+          </div>
+          <div class="d-none d-sm-block d-lg-none">
+            <div class="d-flex align-items-center">
+              <div>
+                <button class="btn pt-3" type="button" data-bs-toggle="offcanvas"
+                  data-bs-target="#offcanvasWithBothOptions" aria-controls="offcanvasWithBothOptions"><i
+                    class="fa-solid fa-greater-than p-2 bg-light border-none rounded-3 text-secondary"></i></button>
+              </div>
+              <div class="ms-auto">
+                <button class="btn pt-3" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight"
+                  aria-controls="offcanvasRight">
+                  <i class="fa-solid fa-less-than  p-2 bg-light border-none rounded-3 text-secondary"></i>
+                </button>
+              </div>
+            </div>
+
+          </div>
+          <div class="offcanvas offcanvas-start" data-bs-scroll="true" tabindex="-1" id="offcanvasWithBothOptions"
+            aria-labelledby="offcanvasWithBothOptionsLabel">
+            <div class="offcanvas-header">
+              <h5 class="offcanvas-title" id="offcanvasWithBothOptionsLabel"></h5>
+              <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            </div>
+            <div class="offcanvas-body background-body">
+              <div class="py-3">
+                <div class=" d-flex pointer mx-4 my-2 rounded-3 bg-gradient justify-content-center align-items-center" data-bs-toggle="modal"
+                data-bs-target="#exampleModal">
+                  <btn class="text-decoration-none py-3  px-2 text-white fw-600" >
+                    <img src="image/Notification.png" alt="">
+                    join Club
+                  </btn>
+                </div>
+                <div class="text-center pointer mx-4 rounded-3 bg-w-f my-3 py-3" data-bs-toggle="modal"
+                data-bs-target="#exampleModal+">
+                  <btn class="text-decoration-none py-3 px-2 py-2  text-black fw-600">
+                    + Create a Club
+                  </btn>
+                </div>
+
+
+                <div class="accordion" id="accordionExample">
+                  <div class="accordion-item">
+                    <h2 class="accordion-header">
+                      <button class="accordion-button shadow-none ps-2 bg-transparent text-3F4354 fw-600" type="button"
+                          data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true"
+                          aria-controls="collapseOne">
+                          Your Clubs
+                        </button>
+                    </h2>
+                    <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+                      <div class="accordion-body">
+                        <div class="d-flex justify-content-start align-items-center py-1">
+                          <div class="px-1">
+                            <img src="image/Avatars.png" alt="">
+                          </div>
+                          <div class="pt-2 ps-2 ps-lg-0 ps-xl-2">
+                            <p class="fs-12 mb-0 fw-600">Cat Lover Club</p>
+                            <small class="fs-10 fw-400">Shots featured today by cu..</small>
+                          </div>
+                        </div>
+                        <div class="d-flex justify-content-start align-items-center py-1">
+                          <div class="px-1">
+                            <img src="image/Avatars (7).png" alt="">
+                          </div>
+                          <div class="pt-2 ps-2 ps-lg-0 ps-xl-2">
+                            <p class="fs-12 mb-0 fw-600">Business Club</p>
+                            <small class="fs-10 fw-400">Find the latest update</small>
+                          </div>
+                        </div>
+                        <div class="d-flex justify-content-start align-items-center py-1">
+                          <div class="px-1">
+                            <img src="image/Avatars (6).png" alt="">
+                          </div>
+                          <div class="pt-2 ps-2 ps-lg-0 ps-xl-2">
+                            <p class="fs-12 mb-0 fw-600">Music RnB Club</p>
+                            <small class="fs-10 fw-400">Find the latest update</small>
+                          </div>
+                        </div>
+                        <div class="d-flex justify-content-start align-items-center py-1">
+                          <div class="px-1">
+                            <img src="image/Avatars (5).png" alt="">
+                          </div>
+                          <div class="pt-2 ps-2 ps-lg-0 ps-xl-2">
+                            <p class="fs-12 mb-0 fw-600">Riders Club</p>
+                            <small class="fs-10 fw-400">Riders Club</small>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>              
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+
+
+        <!-- ================End of join Club======= -->
+
+
+
+        <!-- ============Start of Business Club======= -->
+
+
+        <div class="col-lg-6 pt-4 px-lg-3">
+          <div class="bg-back rounded-3 p-3 p-sm-4 mb-4">
+            <div class="background-center-section m-2 rounded-3 p-5">
+              <div class="text-center">
+                <div class="d-flex justify-content-center py-3">
+                  <img class="bg-BFBFBF border-darks p-3" src="image/Department Store.png" alt="">
+                </div>
+                <div>
+                  <strong class="text-192126 fs-26 fw-600">Business Club</strong>
+                </div>
+                <div>
+                  <small class="text-97989D fs-14">Created by James Houdini</small>
+                </div>
+                <div class="py-1 pointer">
+                  <span class="fs-14 fw-400 text-262626">282b223</span>
+                  <img src="image/fluent_copy-16-regular.png" alt="">
+                </div>
+              </div>
+              <div class="d-flex justify-content-center align-items-center">
+                <div class="d-flex hover py-2 px-2 pointer align-items-center" data-bs-toggle="modal"
+                  data-bs-target="#exampleModal2">
+                  <img class="" src="image/Layer 2 (1).png" alt="">
+                  <btn class="fs-12 ps-1 fw-600 text-192126 d-none d-lg-block">Share club</btn>
+                </div>
+                <div class="p-2">
+                  <btn class="bg-black pointer d-flex p-2 rounded-2" data-bs-toggle="modal"
+                    data-bs-target="#exampleModalleave">
+                    <img src="image/Leave.png" alt="">
+                    <btn class="text-decoration-none fs-600 ps-1 fs-12 text-FFFFFF d-none d-lg-block" href="">Leave
+                    </btn>
+                  </btn>
+                </div>
+              </div>
+            </div>
+          </div>
+
+
+
+
+          <!-- ===========End of Business Club============ -->
+
+
+          <!-- ====only im mobail screen========= -->
+
+
+          <div class="bg-back d-sm-none rounded-2 py-2 my-3 px-3">
+            <div class="d-flex d-sm-none justify-content-between">
+              <div>
+                <span class="text-3F4354 fs-6 fw-600">Explore</span>
+              </div>
+              <div>
+                <span class="text-3F4354 fs-6 fw-600">About</span>
+              </div>
+              <div>
+                <span class="text-3F4354 fs-6 fw-600">Members</span>
+              </div>
+              <div>
+                <span class="text-3F4354 fs-6 fw-600">Events</span>
+              </div>
+              <div>
+                <span class="text-3F4354 fs-6 fw-600"></span>
+              </div>
+            </div>
+          </div>
+
+
+
+          <!-- ====only im mobail screen========= -->
+
+
+
+          <!-- =====================Start of Explore================ -->
+
+
+
+
+          <div class="bg-back rounded-2 py-2 py-xxl-3 my-3 mt-4 px-3 position-relative">
+            <div class="d-flex">
+              <div>
+                <strong class="text-3F4354 fs-6 fw-600">Explore</strong>
+              </div>
+              <div class="ms-auto">
+                <span class="pointer hover py-1 mx-1 px-sm-2">
+                  <img src="image/Group 6.png" alt="">
+                  <small class="px-1 text-3F4354 fs-12 fw-600">New</small>
+                </span>
+                <span class="px-sm-3 hover pointer rounded-2 bg-popular">
+                  <img src="image/Group.png" alt="">
+                  <strong class="px-sm-1 text-192126 fs-12 fw-600">Popular</strong>
+                </span>
+              </div>
+              <div class="d-flex pointer align=align-items-center">
+                <img src="image/Arrow.png" alt="">
+              </div>
+            </div>
+          </div>
+
+
+
+
+
+          <!-- ===================End of Explore================= -->
+
+
+
+          <!-- ==============start of Mandaruiux=========== -->
+
+          <div class="bg-back rounded-2 py-2 my-4 px-2 px-sm-3">
+            <div class="pb-5">
+              <div class="d-flex align-items-center flex-wrap">
+                <div class="d-flex">
+                  <div class="p-2">
+                    <img src="image/Ellipse 39 (2).png" alt="">
+                  </div>
+                  <div class="pt-1 pointer">
+                    <span  data-bs-toggle="tooltip" data-bs-placement="top" data-bs-title="Vice President">
+                      <strong class="fs-14 text-3F4354 fw-600">Mandaruiux</strong>
+                      <img src="image/Role.png" alt="">
+                    </span>
+                    <p class="fs-10 fw-400 text-97989D">3 weeks ago</p>
+                  </div>
+                </div>
+                <div class="ms-auto py-2  py-sm-0">
+                  <small class="px-xl-3 pointer">366,545 Likes</small>
+                  <small class="px-xl-3 pointer">56 comments</small>
+                  <i class="fa-solid pointer fa-heart"></i>
+                </div>
+              </div>
+              <div class="ps-2">
+                <p class="fs-18 pe-xl-4 fw-400">We are excited to announce that, due to our remarkable growth over the
+                  last of years, we are expanding!. In fact, we are opening a new store in 54 Building Street. We invite
+                  you to celebrate with us during the big opening day on July 24. There will ....</p>
+              </div>
+              <div class="ps-2 py-2">
+                <span class="fs-18 text-3F4354 fw-300 pt-1"><i>Related to: </i></span>
+                <span class="hover px-2 py-2">
+                  <span class=" pointer"><img src="image/📅.png" alt=""></span>
+                  <span><strong class="px-sm-1 pointer text-192126 fs-12 fw-600">Meetup Brand Identity</strong></span>
+                </span>
+              </div>
+            </div>
+            <div class="d-flex px-3 px-sm-5 py-3">
+              <div class="d-flex">
+                <div>
+                  <img src="image/Ellipse 39 (3).png" alt="">
+                </div>
+                <div class="ps-2">
+                  <div class="d-flex pointer">
+                    <span class="d-flex align-items-center">
+                      <strong class="text-3F4354 fs-12 fw-600">Jubed Ahmed</strong>
+                      <img src="image/naq.png" alt="">
+                    </span>
+                  </div>
+                  <span>
+                    <p class="text-1B1B1B fs-12 fw-400">can’t wait to work with this new settup!!!</p>
+                    <span class="d-flex align-items-center">
+                      <i class="fa-solid pointer fa-heart pe-1"></i>
+                      <small class="fs-10 pointer text-97989D px-1 fw-400">45 Likes </small>
+                      <strong class="fs-10 pointer px-1 fw-400">Reply</strong>
+                    </span>
+                  </span>
+                </div>
+              </div>
+              <div class="ms-auto pointer">
+                <small class="fs-10">2 Hours ago</small>
+              </div>
+            </div>
+            <div class="d-flex px-3 px-sm-5 py-3">
+              <div class="d-flex">
+                <div>
+                  <img src="image/Ellipse 39 (2).png" alt="">
+                </div>
+                <div class="ps-2">
+                  <div class="d-flex pointer">
+                    <span class="d-flex align-items-center">
+                      <strong class="text-3F4354 fs-12 fw-600">Uiajmad</strong>
+                      <img src="image/pen.png" alt="">
+                    </span>
+                  </div>
+                  <span>
+                    <p class="text-1B1B1B fs-12 fw-400">How we call the contact the contact person..., I am not clearly
+                    </p>
+                    <span class="d-flex  align-items-center">
+                      <i class="fa-solid pointer fa-heart pe-1"></i>
+                      <small class="fs-10 pointer text-97989D px-1 fw-400">45 Likes </small>
+                      <strong class="fs-10 pointer px-1 fw-400">Reply</strong>
+                    </span>
+                  </span>
+                </div>
+              </div>
+              <div class="ms-auto pointer">
+                <small class="fs-10">2 Hours ago</small>
+              </div>
+            </div>
+            <div class="text-center py-4">
+              <span class="fs-12 fw-600 pointer text-0070B2">Show more comment</span>
+            </div>
+            <div class="px-2">
+              <form class="d-flex align-items-center " role="search">
+                <span class="pe-2">
+                  <img src="image/Ellipse 39 (3).png" />
+                </span>
+                <input class="form-control pe-4 bg-F5F5F5 py-sm-2" type="search" placeholder="Post a Comment"
+                  aria-label="Search">
+                <span class="p-2 hover mx-2 pointer">
+                  <img class="" src="image/bell.png" alt="">
+                </span>
+                <button class="rounded-3 px-1 px-sm-2 fw-bold text-FFFFFF bg-192126 py-sm-2 fs-14"
+                  type="submit">Send</button>
+              </form>
+            </div>
+            <div class="py-5">
+              <div class="d-flex align-items-center flex-wrap">
+                <div class="d-flex">
+                  <div class="p-2">
+                    <img src="image/Ellipse 39 (2).png" alt="">
+                  </div>
+                  <div class="pt-1">
+                    <span>
+                      <strong class="fs-14 pointer text-3F4354 fw-600">Mandaruiux</strong>
+                      <img src="image/Role.png" alt="">
+                    </span>
+                    <p class="fs-10 pointer fw-400 text-97989D">3 weeks ago</p>
+                  </div>
+                </div>
+                <div class="ms-auto py-2 py-sm-0">
+                  <small class="px-xl-3 pointer">36,545 Likes</small>
+                  <small class="px-xl-3 pointer">0 comments</small>
+                  <i class="fa-solid pointer fa-heart"></i>
+                </div>
+              </div>
+              <div class="ps-2">
+                <p class="fs-18 pe-xl-4 fw-400">Interview for our partner company will be happening soon in the last 48
+                  hours. you can see the requirement in the picture we include. We are excited to announce that, due to
+                  our remarkable growth over the last of years, we are expanding!. In fact,...</p>
+              </div>
+              <div class="ps-2 py-2 d-flex align-items-center">
+                <span class="fs-18 text-3F4354 fw-300"><i>Related to: </i></span>
+                <span class="hover px-2 pb-1">
+                  <span class="pointer"><img src="image/🎯.png" alt=""></span>
+                  <span><strong class="px-sm-1 pointer text-192126 mb-0 pb-0  fs-12 fw-600">First Target Goal</strong></span>
+                </span>
+              </div>
+            </div>
+            <div class="px-2">
+              <form class="d-flex align-items-center " role="search">
+                <span class="pe-2">
+                  <img src="image/Ellipse 39 (3).png" />
+                </span>
+                <input class="form-control bg-F5F5F5 py-sm-2" type="search" placeholder="Post a Comment"
+                  aria-label="Search">
+                <span class="p-2 mx-2 hover pointer">
+                  <img class=" " src="image/Notifi.png" alt="">
+                </span>
+                <button class="rounded-3 px-1 px-sm-2 fw-bold text-FFFFFF bg-192126 py-sm-2 fs-14"
+                  type="submit">Send</button>
+              </form>
+            </div>
+            <div class="py-5">
+              <div class="d-flex align-items-center flex-wrap">
+                <div class="d-flex">
+                  <div class="p-2">
+                    <img src="image/Ellipse 39 (2).png" alt="">
+                  </div>
+                  <div class="pt-1 pointer">
+                    <span>
+                      <strong class="fs-14 text-3F4354 fw-600">Jubed Ahmed</strong>
+                      <img src="image/Role.png" alt="">
+                    </span>
+                    <p class="fs-10 fw-400 text-97989D">3 weeks ago</p>
+                  </div>
+                </div>
+                <div class="ms-auto py-2 py-sm-0">
+                  <small class="px-xl-3 pointer">6,545 Likes</small>
+                  <small class="px-xl-3 pointer">1 comments</small>
+                  <i class="fa-solid pointer fa-heart"></i>
+                </div>
+              </div>
+              <div class="ps-2">
+                <p class="fs-18 pe-xl-4 fw-400">The event for “The best tips for your to WIN a Company interviews and
+                  applications” will be started in saturday, May 21, 2022.</p>
+              </div>
+              <div class="ps-2 py-2">
+                <span class="fs-18 text-3F4354 fw-300 pt-1"><i>Related to: </i></span>
+                <span class="hover p-2">
+                  <span class="pointer"><img src="image/📅.png" alt=""></span>
+                  <span><strong class="px-sm-1 pointer text-192126 fs-12 fw-600">2022 Halloween Event
+                      Work</strong></span>
+                </span>
+              </div>
+            </div>
+            <div class="d-flex px-3 px-sm-5 py-3">
+              <div class="d-flex">
+                <div>
+                  <img src="image/Ellipse 39 (2).png" alt="">
+                </div>
+                <div class="ps-2">
+                  <div class="d-flex pointer">
+                    <span class="d-flex align-items-center">
+                      <strong class="text-3F4354 fs-12 fw-600">Uiajmad</strong>
+                      <img src="image/naq.png" alt="">
+                    </span>
+                  </div>
+                  <span>
+                    <p class="text-1B1B1B fs-12 fw-400">How we call the contact the contact person..., I am not clearly
+                    </p>
+                    <span class="d-flex align-items-center">
+                      <i class="fa-solid pointer fa-heart pe-1"></i>
+                      <small class="fs-10 pointer text-97989D px-1 fw-400">45 Likes </small>
+                      <strong class="fs-10 pointer px-1 fw-400">Reply</strong>
+                    </span>
+                  </span>
+                </div>
+              </div>
+              <div class="ms-auto pointer">
+                <small class="fs-10">2 Hours ago</small>
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+        <!-- ============End of Col-7 section========== -->
+
+
+        <!-- =======================start of col-lg-3=========== -->
+
+
+        <div class="col-lg-3 pt-4">
+          <div class="">
+            <div class="px-0  ps-lg-0 d-lg-block d-block d-sm-none">
+              <div class="p-2 pt-lg-3 pb-lg-1 rounded-3 bg-back mb-3">
+                <div class="pt-2">
+                  <strong class="py-3 px-2 fw-600">About</strong>
+                  <p class="p-2 fs-14 text-3F4354 fw-400">Download thousands of free & premium web design, illustration,
+                    bootstrap template, flutter app, icon, 3d illustration, and graphic assets for your UI, UX design
+                    project</p>
+                </div>
+              </div>
+              <div class="pt-3 pb-2">
+                <div class="p-2 py-3 rounded-3 bg-back">
+                  <div class="p-2">
+                    <strong class="py-2 ps-1 fw-600 text-3F4354">Officers</strong>
+                  </div>
+                  <div class="d-flex px-2">
+                    <div>
+                      <img class="pt-2 pt-sm-0 px-1 px-sm-0" src="image/Ellipse 39 (1).png" alt="">
+                    </div>
+                    <div class="ps-2">
+                      <span>
+                        <strong class="fs-14 text-3F4354 pointer fw-600">Uiajmad</strong>
+                        <img src="image/Role.png" alt="">
+                      </span>
+                      <p class="fs-10 pointer fw-400 text-97989D">
+                        President
+                      </p>
+                    </div>
+                  </div>
+                  <div class="d-flex px-2">
+                    <div>
+                      <img class="pt-2 pt-sm-0 px-1 px-sm-0" src="image/Ellipse 39 (2).png" alt="">
+                    </div>
+                    <div class="ps-2">
+                      <span>
+                        <strong class="fs-14 text-3F4354 pointer fw-600">Mandaruiux</strong>
+                        <img src="image/Vice President.png" alt="">
+                      </span>
+                      <p class="fs-10 pointer fw-400 text-97989D">
+                        Vice President
+                      </p>
+                    </div>
+                  </div>
+                  <div class="d-flex px-2">
+                    <div>
+                      <img class="pt-2 pt-sm-0 px-1 px-sm-0" src="image/Ellipse 39 (3).png" alt="">
+                    </div>
+                    <div class="ps-2">
+                      <span>
+                        <strong class="fs-14 text-3F4354 pointer fw-600">Jubed Ahmed</strong>
+                        <img src="image/NOte.png" alt="">
+                      </span>
+                      <p class="fs-10 fw-400 pointer text-97989D">
+                        Secretary
+                      </p>
+                    </div>
+                  </div>
+                  <div class="p-2">
+                    <strong class=" px-2 fw-600 text-3F4354">
+                      Members (59)
+                    </strong>
+                  </div>
+                  <div>
+                    <div class="px-2 pb-1">
+                      <img class="img-fluid pointer" width="380px" src="image/Info.png" alt="">
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="px-0 pt-4 ps-lg-0 d-lg-block d-block d-sm-none">
+                <div class="p-2 py-4 pt-3 rounded-2 bg-back mb-3">
+                  <div class="p-2 py-3">
+                    <strong class="py-2 fs-6 fw-600 text-3F4354">Upcoming Events</strong>
+                  </div>
+                  <div class="d-flex ps-2 py-2">
+                    <div class="bg-shad pointer mt-1 rounded-2 px-2">
+                      <div class="pt-lg-1 pt-xl-0">
+                        <strong class="fs-14 fw-600 text-3F4354">MAy</strong>
+                      </div>
+                      <div class="text-center pb-0">
+                        <strong class="fs-26 fw-700 text-3F4354">4</strong>
+                      </div>
+                    </div>
+                    <div class="ps-2">
+                      <strong class="fs-14 pointer fw-600 my-0 text-3F4354">Meetup Brand Identity Design - Beha...</strong>
+                      <p class="fs-10 fw-600 pointer text-97989D my-0 mt-xl-1 mt-xxl-2 py-0">Tell How To Boost Website Traffic</p>
+                      <p class="text-192126 pointer fs-10 fw-600 my-0 mt-xl-1 mt-xxl-2 py-0">10:00-11:00</p>
+                    </div>
+                  </div>
+                  <div class="d-flex ps-2 py-2">
+                    <div class="bg-shad pointer mt-1 rounded-2 px-2">
+                      <div class="pt-lg-1 pt-xl-0">
+                        <strong class="fs-14 fw-600 text-3F4354">MAy</strong>
+                      </div>
+                      <div class="text-center pb-0">
+                        <strong class="fs-26 fw-700 text-3F4354">4</strong>
+                      </div>
+                    </div>
+                    <div class="ps-2">
+                      <strong class="fs-14 fw-600 pointer text-3F4354">Meetup Brand Identity Design - Beha...</strong>
+                      <p class="fs-10 fw-600 pointer text-97989D my-0 mt-xl-1 mt-xxl-2 py-0">Tell How To Boost Website Traffic</p>
+                      <p class="text-192126 fs-10 pointer fw-600 my-0 mt-xl-1 mt-xxl-2 py-0">10:00-11:00</p>
+                    </div>
+                  </div>
+                  <div class="d-flex ps-2 py-2">
+                    <div class="bg-shad pointer rounded-2 mt-1 px-2">
+                      <div class="pt-lg-1 pt-xl-0">
+                        <strong class="fs-14 fw-600 text-3F4354">MAy</strong>
+                      </div>
+                      <div class="text-center">
+                        <strong class="fs-26 fw-700 text-3F4354">4</strong>
+                      </div>
+                    </div>
+                    <div class="ps-2">
+                      <strong class="fs-14 fw-600 pointer text-3F4354">Meetup Brand Identity Design - Beha...</strong>
+                      <p class="fs-10 fw-600 pointer text-97989D my-0 mt-xl-1 mt-xxl-2 py-0">Tell How To Boost Website Traffic</p>
+                      <p class="text-192126 fs-10 pointer fw-600 my-0 mt-xl-1 mt-xxl-2 py-0">10:00-11:00</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="px-0 py-3 d-lg-block d-block d-sm-none">
+                <div class="py-xl-2 py-lg-0 py-2 bg-back rounded-2 px-2">
+                  <div class="py-2 pt-3 ps-2">
+                    <strong class="py-2 fs-6 ps-1 fw-600 text-#3F4354">Budget Goals</strong>
+                  </div>
+                  <div class="ps-2">
+                    <div class="d-flex align-items-center py-1">
+                      <div class="d-flex">
+                        <span>
+                          <img src="image/Avatars (2).png" alt="">
+                        </span>
+                        <span class="ps-2">
+                          <strong class="fs-12 pointer fw-600 text-3F4354">First Target Goal</strong>
+                          <p class="fs-10 pointer fw-400 text-97989D">Mon, Feb 22</p>
+                        </span>
+                      </div>
+                      <div class="ms-auto pe-2 pe-lg-0 pe-xl-2 text-center pb-2">
+                        <strong class="fs-6 pointer text-14B832 fw-bold">$1,800</strong>
+                        <strong class="fs-6 pointer text-192126 fw-bold">/$2,000</strong>
+                      </div>
+                    </div>
+                    <div class="d-flex align-items-center py-1">
+                      <div class="d-flex">
+                        <span>
+                          <img src="image/last-2.png" alt="">
+                        </span>
+                        <span class="ps-2">
+                          <strong class="fs-12 pointer fw-600 text-3F4354">First Target Goal</strong>
+                          <p class="fs-10 fw-400 pointer text-97989D">Mon, Feb 22</p>
+                        </span>
+                      </div>
+                      <div class="ms-auto pe-2 pe-lg-0 pe-xl-2 text-center pb-2">
+                        <strong class="fs-6 pointer text-14B832 fw-bold">$1,800</strong>
+                        <strong class="fs-6 pointer text-192126 fw-bold">/$2,000</strong>
+                      </div>
+                    </div>
+                    <div class="d-flex align-items-center py-1">
+                      <div class="d-flex">
+                        <span>
+                          <img src="image/last-3.png" alt="">
+                        </span>
+                        <span class="ps-2">
+                          <strong class="fs-12 pointer fw-600 text-3F4354">First Target Goal</strong>
+                          <p class="fs-10 fw-400 pointer text-97989D">Mon, Feb 22</p>
+                        </span>
+                      </div>
+                      <div class="ms-auto pe-2 pe-lg-0 pe-xl-2 text-center pb-2">
+                        <strong class="fs-6 pointer text-14B832 fw-bold">$1,800</strong>
+                        <strong class="fs-6 pointer text-192126 fw-bold">/$2,000</strong>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="d-none d-sm-block d-lg-none">
+              <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight"
+                aria-labelledby="offcanvasRightLabel">
+                <div class="offcanvas-header">
+                  <h5 class="offcanvas-title" id="offcanvasRightLabel"></h5>
+                  <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                </div>
+                <div class="offcanvas-body background-body">
+                  <div class="px-3 mx-1 mt-4 ps-lg-0 d-lg-none d-none d-sm-block">
+                    <div class="p-2 py-3 rounded-3 bg-back mb-3">
+                      <div class="py-2">
+                        <strong class="py-3 px-2 fw-600">About</strong>
+                        <p class="p-2 fs-14 text-3F4354 fw-400">Download thousands of free & premium web design,
+                          illustration, bootstrap template, flutter app, icon, 3d illustration, and graphic assets for
+                          your UI, UX design project</p>
+                      </div>
+                    </div>
+                    <div class="pt-3 pb-2">
+                      <div class="p-2 py-3 rounded-3 bg-back">
+                        <div class="p-2">
+                          <strong class="py-2 ps-1 fw-600 text-3F4354">Officers</strong>
+                        </div>
+                        <div class="d-flex px-2">
+                          <div>
+                            <img class="pt-1 pt-sm-0 px-1 px-sm-0" src="image/Ellipse 39 (1).png" alt="">
+                          </div>
+                          <div class="ps-2">
+                            <span>
+                              <strong class="fs-14 text-3F4354 pointer fw-600">Uiajmad</strong>
+                              <img src="image/Role.png" alt="">
+                            </span>
+                            <p class="fs-10 pointer fw-400 text-97989D">
+                              President
+                            </p>
+                          </div>
+                        </div>
+                        <div class="d-flex px-2">
+                          <div>
+                            <img class="pt-1 pt-sm-0 px-1 px-sm-0" src="image/Ellipse 39 (2).png" alt="">
+                          </div>
+                          <div class="ps-2">
+                            <span>
+                              <strong class="fs-14 text-3F4354 pointer fw-600">Mandaruiux</strong>
+                              <img src="image/Vice President.png" alt="">
+                            </span>
+                            <p class="fs-10 pointer fw-400 text-97989D">
+                              Vice President
+                            </p>
+                          </div>
+                        </div>
+                        <div class="d-flex px-2">
+                          <div>
+                            <img class="pt-1 pt-sm-0 px-1 px-sm-0" src="image/Ellipse 39 (3).png" alt="">
+                          </div>
+                          <div class="ps-2">
+                            <span>
+                              <strong class="fs-14 text-3F4354 pointer fw-600">Jubed Ahmed</strong>
+                              <img src="image/NOte.png" alt="">
+                            </span>
+                            <p class="fs-10 fw-400 pointer text-97989D">
+                              Secretary
+                            </p>
+                          </div>
+                        </div>
+                        <div class="px-2">
+                          <strong class=" px-2 fw-600 text-3F4354">
+                            Members (59)
+                          </strong>
+                        </div>
+                        <div>
+                          <div class="px-2">
+                            <img class="img-fluid pointer" width="380px" src="image/Info.png" alt="">
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="px-0 pt-4 ps-lg-0 d-lg-none d-none d-sm-block">
+                      <div class="p-2 py-4 rounded-2 bg-back mb-3">
+                        <div class="p-2 py-3">
+                          <strong class="py-2 fs-6 fw-600 text-3F4354">Upcoming Events</strong>
+                        </div>
+                        <div class="d-flex ps-2 py-2">
+                          <div class="bg-shad pointer rounded-2 px-2">
+                            <div class="pt-lg-1 pt-xl-0">
+                              <strong class="fs-14 fw-600 text-3F4354">MAy</strong>
+                            </div>
+                            <div class="text-center pb-0">
+                              <strong class="fs-26 fw-700 text-3F4354">4</strong>
+                            </div>
+                          </div>
+                          <div class="ps-2">
+                            <strong class="fs-14 fw-600 text-3F4354">Meetup Brand Identity Design - Beha...</strong>
+                            <small class="fs-10 fw-600 text-97989D py-xl-1 mb-0">Tell How To Boost Website Traffic</small>
+                            <p class="text-192126 fs-10 fw-600 py-xl-1">10:00-11:00</p>
+                          </div>
+                        </div>
+                        <div class="d-flex ps-2 py-2">
+                          <div class="bg-shad pointer rounded-2 px-2">
+                            <div class="pt-lg-1 pt-xl-0">
+                              <strong class="fs-14 fw-600 text-3F4354">MAy</strong>
+                            </div>
+                            <div class="text-center pb-0">
+                              <strong class="fs-26 fw-700 text-3F4354">4</strong>
+                            </div>
+                          </div>
+                          <div class="ps-2">
+                            <strong class="fs-14 fw-600 text-3F4354">Meetup Brand Identity Design - Beha...</strong>
+                            <small class="fs-10 fw-600 text-97989D py-xl-1 mb-0 my-0">Tell How To Boost Website Traffic</small>
+                            <p class="text-192126 fs-10 fw-600 py-xl-1">10:00-11:00</p>
+                          </div>
+                        </div>
+                        <div class="d-flex ps-2 py-2">
+                          <div class="bg-shad pointer rounded-2 px-2">
+                            <div class="pt-lg-1 pt-xl-0">
+                              <strong class="fs-14 fw-600 text-3F4354">MAy</strong>
+                            </div>
+                            <div class="text-center">
+                              <strong class="fs-26 fw-700 text-3F4354">4</strong>
+                            </div>
+                          </div>
+                          <div class="ps-2">
+                            <strong class="fs-14 fw-600 text-3F4354">Meetup Brand Identity Design - Beha...</strong>
+                            <small class="fs-10 fw-600 text-97989D py-xl-1 mb-0">Tell How To Boost Website Traffic</small>
+                            <p class="text-192126 fs-10 fw-600 py-xl-1">10:00-11:00</p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="px-0 py-3 d-lg-none d-none d-sm-block">
+                      <div class="py-xl-2 py-lg-0 py-2 bg-back rounded-2 px-2">
+                        <div class="py-3 ps-2">
+                          <strong class="py-2 fs-6 ps-1 fw-600 text-#3F4354">Budget Goals</strong>
+                        </div>
+                        <div class="ps-2">
+                          <div class="d-flex align-items-center py-3">
+                            <div class="d-flex">
+                              <span>
+                                <img src="image/Avatars (2).png" alt="">
+                              </span>
+                              <span class="ps-2">
+                                <strong class="fs-12 fw-600 text-3F4354">First Target Goal</strong>
+                                <p class="fs-10 fw-400 text-97989D">Mon, Feb 22</p>
+                              </span>
+                            </div>
+                            <div class="ms-auto me-xl-5">
+                              <strong class="fs-6 text-14B832 fw-bold">$1,800</strong>
+                              <strong class="fs-6 text-192126 fw-bold">/$2,000</strong>
+                            </div>
+                          </div>
+                          <div class="d-flex align-items-center py-3">
+                            <div class="d-flex">
+                              <span>
+                                <img src="image/last-2.png" alt="">
+                              </span>
+                              <span class="ps-2">
+                                <strong class="fs-12 fw-600 text-3F4354">First Target Goal</strong>
+                                <p class="fs-10 fw-400 text-97989D">Mon, Feb 22</p>
+                              </span>
+                            </div>
+                            <div class="ms-auto me-xl-5">
+                              <strong class="fs-6 text-14B832 fw-bold">$1,800</strong>
+                              <strong class="fs-6 text-192126 fw-bold">/$2,000</strong>
+                            </div>
+                          </div>
+                          <div class="d-flex align pointer-items-center py-3">
+                            <div class="d-flex">
+                              <span>
+                                <img src="image/last-3.png" alt="">
+                              </span>
+                              <span class="ps-2">
+                                <strong class="fs-12 fw-600 text-3F4354">First Target Goal</strong>
+                                <p class="fs-10 fw-400 text-97989D">Mon, Feb 22</p>
+                              </span>
+                            </div>
+                            <div class="ms-auto me-xl-5">
+                              <strong class="fs-6 text-14B832 fw-bold">$1,800</strong>
+                              <strong class="fs-6 text-192126 fw-bold">/$2,000</strong>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+            </div>
+          </div>
+        </div>
+        <!-- ==============================end of col-lg-3======================= -->
+      </div>
+
+      <!-- =================Sticky B0ttom start============= -->
+
+
+      <div class="row sticky-bottom bg-FFFFFF">
+        <div class="sticky-bottom">
+          <nav class="navbar navbar-expand">
+            <div class="container-fluid">
+              <div class="collapse justify-content-center navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mb-2 mb-lg-0">
+                  <li class="nav-item align-items-center pointer d-block pe-3 px-sm-3 py-1 mx-sm-4 d-lg-none">
+                    <a class="nav-link active" aria-current="page" href="#">
+                      <img src="image/Home.png" alt="">
+                    </a>
+                  </li>
+                  <li class="nav-item align-items-center pointer px-sm-3 px-3 pe-2 hover pt-2 mx-sm-4 d-block d-lg-none">
+                    <a class="nav-link disabled" aria-disabled="true">
+                      <img src="image/top-2.png" alt="">
+                    </a>
+                  </li>
+                  <li class="nav-item align-items-center pointer px-3 px-3 pe-3 hover pt-2 mx-sm-4 d-block d-lg-none">
+                    <a class="nav-link disabled" aria-disabled="true">
+                      <img src="image/home 2.png" alt="">
+                    </a>
+                  </li>
+                  <li class="nav-item align-items-center pointer px-sm-3 px-3 pe-2 hover pt-2 mx-sm-4 d-block d-lg-none">
+                    <a class="nav-link disabled" aria-disabled="true">
+                      <img src="image/top-1.png" alt="">
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+        </div>
+      </div>
+
+
+      <!-- ========================End sticky bottom=========== -->
+    </div>
+    </div>
+  </section>
+
+  
+
+  
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+
+        <script>
+            const tooltipTriggerList = document.querySelectorAll('[data-bs-toggle="tooltip"]')
+            const tooltipList = [...tooltipTriggerList].map(tooltipTriggerEl => new bootstrap.Tooltip(tooltipTriggerEl))
+           
+        </script>
+
+
+<script>
+
+
+// var first_name="sohail";
+// var last_name="zangi";
+
+//   alert(first_name+last_name)
+
+
+</script>
+</body>
+
+</html>
